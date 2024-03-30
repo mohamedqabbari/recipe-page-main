@@ -1,0 +1,23 @@
+{
+  "name": "recipe-page-main",
+  "version": "1.0.0",
+  "description": "FrontendMentor Challenge: Recipe Page Main on frontendmentor.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass styles/style.scss styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedqabbari/recipe-page-main.git"
+  },
+  "author": "Mohammed Qabbari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedqabbari/recipe-page-main/issues"
+  },
+  "homepage": "https://github.com/mohamedqabbari/recipe-page-main#readme",
+  "devDependencies": {
+    "sass": "^1.72.0"
+  }
+}

@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "outfit";
+  src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "young serif";
+  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 75px 0 75px;
+  margin: 0;
+  height: fit-content;
+  width: 100%;
+  background-color: hsl(30, 54%, 90%);
+}
+body .recipe-content {
+  /* 
+  Recipe Content contain: 
+      Meal Image (.meal-img)
+      Meal Name (.meal-name)
+      Meal Description (.meal-desc)
+      Preparation Time (.meal-prep-time)
+      Meal Ingredients (.meal-ingredients)
+      Instructions (.meal-prep-instructions)
+      Meal Nutritions (.meal-nutrition) 
+  */
+  border-radius: 10px;
+  margin: 0;
+  padding: 30px;
+  width: 80vw;
+  background-color: hsl(0, 0%, 100%);
+}
+body .recipe-content hr {
+  border: 0.5px solid hsl(30, 18%, 87%);
+}
+body .recipe-content .meal-img {
+  border-radius: inherit;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+body .recipe-content .meal-name {
+  margin: 12px 0 12px;
+  font-family: "young serif";
+  font-size: 2.4rem;
+  color: hsl(24, 5%, 18%);
+}
+body .recipe-content .meal-desc {
+  font-family: "outfit";
+  font-size: 0.9rem;
+  color: hsl(30, 10%, 34%);
+}
+body .recipe-content .meal-ingredients, body .recipe-content .meal-prep-instructions, body .recipe-content .meal-nutrition {
+  border-radius: inherit;
+  font-family: "outfit";
+  font-size: 0.9rem;
+  color: hsl(30, 10%, 34%);
+}
+body .recipe-content .meal-ingredients .section-title, body .recipe-content .meal-prep-instructions .section-title, body .recipe-content .meal-nutrition .section-title {
+  font-family: "young serif";
+  font-size: 1.4rem;
+  color: hsl(14, 45%, 36%);
+}
+body .recipe-content .meal-prep-time {
+  padding: 20px;
+  border-radius: inherit;
+  font-family: "outfit";
+  font-size: 0.9rem;
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(330, 100%, 98%);
+}
+body .recipe-content .meal-prep-time .section-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: hsl(332, 51%, 32%);
+}
+body .recipe-content .meal-prep-time ul {
+  padding-left: 20px;
+}
+body .recipe-content .meal-prep-time ul li {
+  padding-left: 10px;
+}
+body .recipe-content .meal-prep-time ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+body .recipe-content .meal-ingredients ul {
+  padding-left: 20px;
+}
+body .recipe-content .meal-ingredients ul li {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+body .recipe-content .meal-ingredients ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+body .recipe-content .meal-prep-instructions ol {
+  padding-left: 20px;
+}
+body .recipe-content .meal-prep-instructions ol li {
+  padding-left: 10px;
+}
+body .recipe-content .meal-prep-instructions ol li::marker {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+body .recipe-content .meal-nutrition .nutrition-amounts {
+  margin-top: 20px;
+  width: 100%;
+}
+body .recipe-content .meal-nutrition .nutrition-amounts tr td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 10px;
+}
+body .recipe-content .meal-nutrition .nutrition-amounts tr td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+body .recipe-content .meal-nutrition .nutrition-amounts tr:last-child td {
+  border-bottom: none;
+}
+
+@media screen and (min-width: 1200px) {
+  body .recipe-content {
+    width: 40vw !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
